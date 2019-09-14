@@ -10,7 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a multi-line script
-      run: |
-        {for i in *.tex; do
-          pdflatex i || break
-        done}
+      run: for i in *.tex; do pdflatex i done
