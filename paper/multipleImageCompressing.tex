@@ -36,7 +36,7 @@
 	
 	To test this method, a program was written. The program creates an average image of all images of one similarity category. Afterwards the differences between the original images and the average image are determined.
 	
-	Therefore the red, green and blue values of each pixel are compared. If one of these values differ more than a given percentage from the color of the average image pixel, the exact color of the original image is saved. Else the pixel color of the new image is set to transparent.
+	Therefore, the red, green and blue values of each pixel are compared. If one of these values differ more than a given percentage from the color of the average image pixel, the exact color of the original image is saved. Else the pixel color of the new image is set to transparent.
 	
 	To check how good the method work, you can take the average image and add a specific image as new layer above the average image. In the following there are some examples.
 	\newpage
@@ -90,8 +90,8 @@
 	\justifying
 
 	\section{Practical problems}
-	As you can see in the examples, there is the problem, that prominent objectives into images affect the average image more than other objectives. This prominent object has to be overwritten by every image, that do not have this object or where the object has another shape. Especially in similar images the prominent object has often nearly the same color as the color of the pixels around that object. Prominent objects are often the areas of an image, where the focus is. That means, that this object have to be very clear.
-	Because of that the percentage of accordance have to be very high. 80\% accordance is mostly not enough. There has to be 90\% accordance to reach an image where you can't see prominent objects multiple.
+	As you can see in the examples, there is the problem, that prominent objectives into images affect the average image more than other objectives. This prominent object has to be overwritten by every image, that do not have this object or where the object has another shape. Especially in similar images the prominent object has often nearly the same color as the color of the pixels around that object. Prominent objects are often the areas of an image, where the focus is. That means, that this object has to be very clear.
+	Therefore, the percentage of accordance have to be very high. 80\% accordance is mostly not enough. There has to be 90\% accordance to reach an image where you can't see prominent objects multiple.
 	
 	Another problem is, that the border between the separate saved pixels and the pixels of the average image are very strict. Even with a high percentage of accordance this border is very unattractive.
 	
